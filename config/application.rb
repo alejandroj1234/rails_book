@@ -20,6 +20,8 @@ module Shine2
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
+    # Need to tell rails to use SQL, rather than Ruby, for storing the schema
+    config.active_record.schema_format = :sql 
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
