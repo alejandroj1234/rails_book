@@ -27,6 +27,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 # Use devise for login authentication 
 gem 'devise'
+# use for entering data in db 
+gem 'faker'
 gem 'foreman'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
